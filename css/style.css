@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #000000;
+}
+header div,
+header nav,
+header ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+
+}
+header ul{
+    list-style-type: none;
+    padding: 0;
+}
+img{
+    width: 80vw;
+    height: 30vw;
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: #000000;
+}
