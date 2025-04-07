@@ -23,6 +23,7 @@ header ul{
 .contenedor{
     position: relative;
     text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
 
 }
 img{
@@ -40,7 +41,7 @@ footer{
     top: 8px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
+    color: aliceblue;
 
 }
 a{
