@@ -1,0 +1,17 @@
+body{font-family:ui-sans-serif,system-ui,sans-serif;line-height:0.8;}
+
+h2{font-size:inherit;font-weight:bold}
+
+.max {max-width: 100%;}
+
+.serviciosDiv { 
+    border: 2px outset rgb(197, 196, 213);
+    display:inline-block;
+    width: 80%;
+    margin: 10px; 
+    padding: 10px;     
+    background-color: rgb(197, 204, 142);
+  }
+
+
+.card-title{font-size:130%;font-weight:700;color: #850606; display:inline;}
