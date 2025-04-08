@@ -1,0 +1,16 @@
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: helvetica, sans-serif;
+}
+.login{
+    border-radius: 14px;
+    border : 2px solid black
+}
+body{
+    background-color: #9602D3;
+}
+h1{
+    font-family: 'open sans', sans-serif;
+}
