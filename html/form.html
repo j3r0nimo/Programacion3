@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>LOGIN</h1>>
+    <form action = "" method = "post">
+
+        <!--label de nombre-->
+        <label class = "label" for = "nombre">Nombre: </label>
+        <input class = "login" type = "text" name = "nombre" id = "nombre" required>
+        <br>
+
+        <!--label de email-->
+        <label class = "label" for = "email"> Email: </label>
+        <input class = "login" type = "email" name = "email" id = "email" required>
+        <br>
+
+        <!--label de telefono-->
+        <label class = "label" for = "tel"> Telefono:</label>
+        <input class = "login" type= "tel" name = "telefono" id = "telefono" required>
+        <br>
+
+        <!--label de comentarios-->
+        <label class = "label" for = "especificaciones">Especicaciones:</label>
+        <textarea class = "login" id = "especificaciones" name = "especificaciones" rows = 4 required></textarea>
+        <br>
+
+        <!--label de selector multi-->
+        <label class = "label" for = "Pais">Pais:</label>
+        <select class = "login" id = "Pais" name = "Pais">
+            <option value = "Argentina">Argentina</option>
+            <option value = "Chile">Chile</option>
+            <option value = "Brasil">Brasil</option>
+        </select>
+        <br>
+
+        <!--label de checkboc-->
+        <label class = "label">
+            <input class = "login" type = "checkbox" name = "suscripción" value = "si"> ¿Se quiere suscribir a la página?
+        </label>
+        <br>
+
+        <button>Enviar</button>
+        <button type = "reset">Eliminar datos</button>
+    </form>
+</body>
+</html>
