@@ -37,6 +37,9 @@ header ul{
     gap: 20px;
 
 }
+#titulo{
+    font-size: 20px;
+}
 
 .max {max-width: 100%;}
 
