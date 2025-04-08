@@ -1,0 +1,72 @@
+body{
+    font-family: "Winky Sans", sans-serif;
+    margin: 0;
+    background-color: #aca2ff;
+}
+header{
+    font-weight: bold;
+    background-color: #000000;
+}
+header div,
+header nav,
+header ul{
+    display: flex;
+    align-items: center;
+}
+header div{
+    margin-left: 50px;
+    gap: 50px;
+}
+header ul{
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+
+}
+#titulo{
+    font-size: 20px;
+
+}
+.contenedor{
+    position: relative;
+    text-align: center;
+}
+.gradient{
+    width: 80vw;
+    height: 30vw;
+    display: inline-block;
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    margin: auto;
+}
+img{
+    width: 80vw;
+    height: 30vw;
+    display: inline-block;
+    margin: auto;
+    object-fit: cover;
+    
+}
+footer{
+    background-color: #000000;
+}
+#mision{
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+
+}
+a:link{
+    color: white;
+    text-decoration: none;
+
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
