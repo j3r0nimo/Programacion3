@@ -14,13 +14,13 @@ header ul{
     align-items: center;
 }
 header div{
-    margin-left: 50px;
-    gap: 50px;
+    margin-left: 30px;
+    gap: 2vw;
 }
 header ul{
     list-style-type: none;
     padding: 0;
-    gap: 20px;
+    gap: 2vw;
 
 }
 #titulo{
@@ -51,8 +51,9 @@ footer{
     background-color: #000000;
 }
 #mision{
+    font-size: 1.22vw;
     position: absolute;
-    top: 8px;
+    top: 4vh;
     left: 50%;
     transform: translate(-50%, -50%);
     color: aliceblue;
