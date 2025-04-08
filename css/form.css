@@ -9,7 +9,29 @@
     border : 2px solid black
 }
 body{
-    background-color: #9602D3;
+    font-family: "Winky Sans", sans-serif;
+    margin: 0;
+    background-color: #b1b8de;
+}
+header{
+    font-weight: bold;
+    background-color: #000000;
+}
+header div,
+header nav,
+header ul{
+    display: flex;
+    align-items: center;
+}
+header div{
+    margin-left: 50px;
+    gap: 50px;
+}
+header ul{
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+
 }
 h1{
     font-family: 'open sans', sans-serif;
@@ -17,4 +39,16 @@ h1{
 .container {
     width: 80%;
     margin:0 auto;  
+}
+a:link{
+    color: white;
+    text-decoration: none;
+
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }

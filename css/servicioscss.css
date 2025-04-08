@@ -2,7 +2,10 @@ html {
     font-family: ui-sans-serif,system-ui,sans-serif;
 }
 
-body{background-color: #b1b8de;}
+body{
+    background-color: #b1b8de;
+    margin: 0;
+}
 
 h1,h2{
     font-weight: bold;
@@ -13,7 +16,27 @@ p{
     font-weight: normal;
     padding: 0px;
 }
+header{
+    font-family: "Winky Sans", sans-serif;
+    font-weight: bold;
+    background-color: #000000;
+}
+header div,
+header nav,
+header ul{
+    display: flex;
+    align-items: center;
+}
+header div{
+    margin-left: 50px;
+    gap: 50px;
+}
+header ul{
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
 
+}
 
 .max {max-width: 100%;}
 
@@ -52,4 +75,16 @@ p{
     font-size: 150%;
     padding: 8px;
     color: #850606;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
