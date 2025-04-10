@@ -1,0 +1,30 @@
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.label{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: helvetica, sans-serif;
+    flex-direction: column;
+    gap: 10px;
+}
+.login{
+    display: flex;
+    border-radius: 14px;
+    border : 2px solid black
+}
+body{
+    background-color: #9602D3;
+}
+h1{
+    display: flex;
+    font-family: 'open sans', sans-serif;
+}
