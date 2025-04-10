@@ -1,32 +1,34 @@
 body {
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-    background-color: #aca2ff;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    min-height: 100%;
-  }
-  
+  font-family: "Winky Sans", sans-serif;
+  margin: 0;
+  background-color: #aca2ff;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
   h1 {
     margin-bottom: 20px;
     color: #000000;
   }
 
+#titulo{
+    font-size: 20px;
+
+}
+
 .contenedor{
+  padding: 20px;
   justify-content: center;
   text-align: center;
 }
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 10px;
-  width: 80vw;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
   max-width: 1200px;
-  padding: 20px;
-  background: #aca2ff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px #0000001A;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .gallery .card {
@@ -74,11 +76,11 @@ header ul{
     gap: 2vw;
 
 }
-footer{
-  position: relative;
+footer {
   background-color: #000000;
   width: 100%;
-  margin: 0;
+  padding: 15px 0;
+  margin-top: auto;
 }
 .iconos-footer{
     width: 40px;
