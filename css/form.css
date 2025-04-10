@@ -1,10 +1,23 @@
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
 .label{
+    display: flex;
     font-size: 20px;
     font-weight: bold;
     color: black;
     font-family: helvetica, sans-serif;
+    flex-direction: column;
+    gap: 10px;
 }
 .login{
+    display: flex;
     border-radius: 14px;
     border : 2px solid black
 }
@@ -13,7 +26,14 @@ body{
     margin: 0;
     background-color: #b1b8de;
 }
+h1{
+    
+    display: flex;
+    font-family: 'open sans', sans-serif;
+}
 header{
+    font-family: "Winky Sans", sans-serif;
+    padding: 10px;
     font-weight: bold;
     background-color: #000000;
 }
@@ -24,36 +44,17 @@ header ul{
     align-items: center;
 }
 header div{
-    margin-left: 50px;
-    gap: 50px;
+    margin-left: 30px;
+    gap: 2vw;
 }
 header ul{
     list-style-type: none;
     padding: 0;
-    gap: 20px;
+    gap: 2vw;
 
 }
 #titulo{
     font-size: 20px;
-}
-h1{
-    font-family: 'open sans', sans-serif;
-}
-.container {
-    width: 80%;
-    margin:0 auto;  
-}
-a:link{
-    color: white;
-    text-decoration: none;
-
-}
-a:visited{
-    color:white;
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
 }
 footer {
     color: aliceblue;
@@ -61,10 +62,21 @@ footer {
     width: 100%;
     padding: 15px 0;
     margin-top: auto;
-    font-family: "Winky Sans", sans-serif;
-    font-weight: bold;
 }
 .iconos-footer{
     width: 40px;
-    padding: 50;
+    padding: 2px;
+}
+
+header a:link{
+color: white;
+text-decoration: none;
+
+}
+header a:visited{
+color:white;
+text-decoration: none;
+}
+header a:hover{
+text-decoration: underline;
 }

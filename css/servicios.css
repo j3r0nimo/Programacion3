@@ -18,6 +18,7 @@ p{
 }
 header{
     font-family: "Winky Sans", sans-serif;
+    padding: 10px;
     font-weight: bold;
     background-color: #000000;
 }
@@ -28,13 +29,13 @@ header ul{
     align-items: center;
 }
 header div{
-    margin-left: 50px;
-    gap: 50px;
+    margin-left: 30px;
+    gap: 2vw;
 }
 header ul{
     list-style-type: none;
     padding: 0;
-    gap: 20px;
+    gap: 2vw;
 
 }
 #titulo{
@@ -101,5 +102,6 @@ footer {
     font-weight: bold;
 }
 .iconos-footer{
+    padding: 2px;
     width: 40px;
 }
