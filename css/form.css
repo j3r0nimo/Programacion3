@@ -17,7 +17,9 @@ form{
     flex-direction: column;
     gap: 10px;
 }
-
+#privacidad{
+    align-self: baseline;
+}
 .login{   
     border-radius: 7px;
     border : 1px solid black;
