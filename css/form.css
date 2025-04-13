@@ -1,0 +1,43 @@
+form{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
+
+.label{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: helvetica, sans-serif;
+    flex-direction: column;
+    gap: 10px;
+}
+#privacidad{
+    align-self: baseline;
+}
+.login{   
+    border-radius: 7px;
+    border : 1px solid black;
+    font-size: 18px;
+}
+
+.container_form {    
+    width: 80%;
+    padding: 10px;
+    margin:0 auto;
+    overflow: hidden;
+    background-color: #aca2ff;    
+    display: flex;  
+}
+
+.botones{
+    margin-top: 12px;
+    margin-bottom: 12px;;
+    font-size: 16px;
+    font-weight: bold;
+}

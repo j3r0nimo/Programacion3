@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Contacto - El Montañes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/iconos/favi_man_96.png" type="image/png" sizes="96x96">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="/css/index.css"/>
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/footer.css"/>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="../index.html"><img src="/img/iconos/logo_empresa.png"></a>
+            <nav>
+                <ul>
+                    <li><a href="/html/servicios.html">SERVICIOS</a></li>
+                    <li><a href="/html/galeria.html">GALERIA</a></li>
+                    <li><a href="/html/form.html">CONTACTO</a></li>
+                </ul>
+            </nav>            
+        </div>        
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="encabezado"> 
+            <h2 class="mi_color">Formulario de contacto</h2>
+            </div>
+        </section>
+    
+        <div class="container_form">
+            
+                <form action = "" method = "post">
+
+                    <!--label de nombre-->
+                    <label class = "label" for = "nombre">Nombre: </label>
+                    <input class = "login" type = "text" name = "nombre" id = "nombre" required>
+
+                    <!--label de email-->
+                    <label class = "label" for = "email"> Email: </label>
+                    <input class = "login" type = "email" name = "email" id = "email" required>
+                    
+                    <!--label de telefono-->
+                    <label class = "label" for = "tel"> Telefono:</label>
+                    <input class = "login" type= "tel" name = "telefono" id = "telefono" required>
+                    
+                    <!--label de comentarios-->
+                    <label class = "label" for = "especificaciones">Especificaciones:</label>
+                    <textarea class = "login" id = "especificaciones" name = "especificaciones" rows = 4 required></textarea>
+                    
+                    <!--label de selector multi-->
+                    <label class = "label" for = "Pais">Pais:</label>
+                    <select class = "login" id = "Pais" name = "Pais">
+                        <option value = "Argentina">Argentina</option>
+                        <option value = "Chile">Chile</option>
+                        <option value = "Brasil">Brasil</option>
+                    </select>
+                    <label class="label" for="privacidad">Acepto las politicas de privacidad</label>    
+                    <input type="checkbox" name="privacidad" id="privacidad" required>
+                    
+                    <div>
+                        <button class = "botones">Enviar</button>
+                        <button class = "botones" type = "reset">Borrar</button>
+                    </div>
+                </form>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer_flex">
+            <div class="footer_div_logo"><img src="/img/iconos/logo_emp_xl.png" alt="logo montagne" width="250px"></div>
+            <div class="footer_div_txt"><p class="color_white">Estamos especializados en la provisión de equipo para baja montaña, con foco en la Zona de las Sierras de Ventania</p></div>
+            <div class="footer_div"><a href="https://www.montagne.com.ar/" target="_blank"><img class="iconos-footer" src="/img/iconos/images.png" alt="logo montagne"></a></div>
+            <div class="footer_div"><a href="https://salomonstore.com.ar/" target="_blank"><img class="iconos-footer" src="/img/iconos/logoSalomon.png" alt="logo salomon"></a></div>
+        </div>
+        <div>
+            <p class="footer_div_cierre">© 2025, El Montañes</p>
+        </div>
+      </footer>
+</body>
+</html>
